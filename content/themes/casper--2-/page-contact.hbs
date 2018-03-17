@@ -1,0 +1,45 @@
+{{!< default}}
+
+{{#post}}
+
+	{{!-- The main content area on the homepage --}}
+	<main id="content" class="content" role="main">
+
+		<div class="row">
+			<form class="col s12" id="contact-form" method="POST" action="https://formspree.io/tyler.w.drake@gmail.com">
+				<div class="row">
+					<div class="col m3 s0"></div>
+					<div class="input-field col m6 s12">
+						<input id="name" type="text" name="name" required>
+						<label for="name" data-error="required">Name</label>
+					</div>
+					<div class="col m3 s0"></div>
+				</div>
+				<div class="row">
+					<div class="col m3 s0"></div>
+					<div class="input-field col m6 s12">
+						<input id="email" type="email" name="email" required>
+						<label for="email">Email</label>
+					</div>
+					<div class="col m3 s0"></div>
+				</div>
+				<div class="row">
+					<div class="col m3 s0"></div>
+					<div class="input-field col m6 s12">
+						<textarea id="message" type="text" class="materialize-textarea" name="message" required></textarea>
+						<label for="message">Message</label>
+					</div>
+					<div class="col m3 s0"></div>
+				</div>
+				<div class="center-align">
+					<button class="btn-flat send-contact" type="submit" name="action">
+						<i class="medium material-icons" style="font-size: 2rem !important;">send</i>
+					</button>
+				</div>
+				<input type="hidden" name="_subject" value="Ghost Blog Contact Form Submission" />
+				<input type="text" name="_gotcha" style="display:none" />
+			</form>
+		</div>
+
+	</main>
+{{/post}}
