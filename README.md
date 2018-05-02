@@ -1,2 +1,2 @@
 # Ghost Blog
-<a href="twdragon.com">twdragon.com</a>
+<a href="https://twdragon.com/">twdragon.com</a>
