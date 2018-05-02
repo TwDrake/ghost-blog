@@ -1,2 +1,2 @@
 # Ghost Blog
-twdragon@gmail.com
+twdragon.com
